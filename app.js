@@ -16,3 +16,7 @@ function greeting() {
 }
 
 greeting();
+
+(function wow() {
+  console.log('IIFE');
+})();
