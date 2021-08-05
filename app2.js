@@ -24,8 +24,8 @@ let message1 = greet();
 console.log(message1);
 
 //arrow function for greet
-let greet2 = name => `Hello ${name}!`;
-let message1a = greet2('John Arrow');
+let greet2 = (name = 'Default2') => `Hello ${name}!`;
+let message1a = greet2();
 console.log(message1a);
 
 function sum(n1, n2) {
