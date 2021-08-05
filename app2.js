@@ -37,3 +37,8 @@ let sum1 = (n1, n2) => n1 + n2;
 let output = sum1(2, 4);
 console.log(output);
 
+let greetRest = (...names) => {
+  names.forEach((name, index) => console.log(`${index + 1} :Hi, ${name}!`));
+}
+
+greetRest('Danny', 'Nsisong', 'Eno');
