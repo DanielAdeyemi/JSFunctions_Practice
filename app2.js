@@ -16,11 +16,11 @@ let message = greetings();
 console.log(message);
 
 
-let greet = function greeting(name) {
+let greet = function greeting(name = 'Default') {
   return `Hello, ${name}!`;
 }
 
-let message1 = greet('John');
+let message1 = greet();
 console.log(message1);
 
 //arrow function for greet
@@ -36,3 +36,4 @@ let sum1 = (n1, n2) => n1 + n2;
 
 let output = sum1(2, 4);
 console.log(output);
+
